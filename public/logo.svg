@@ -1,0 +1,19 @@
+<!-- Loading Logo Spinner (editable) -->
+<svg width="128" height="128" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Loading">
+  <style>
+    .spin { animation: spin 1.2s linear infinite; transform-origin: 50px 50px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+
+  <!-- Soft background ring -->
+  <circle cx="50" cy="50" r="38" stroke="currentColor" stroke-opacity=".15" stroke-width="8"/>
+
+  <!-- Animated arc -->
+  <circle class="spin" cx="50" cy="50" r="38"
+          stroke="currentColor" stroke-width="8" stroke-linecap="round"
+          stroke-dasharray="60 200" stroke-dashoffset="0" fill="none"/>
+
+  <!-- Initials / wordmark (edit text or remove for plain spinner) -->
+  <text x="50" y="55" text-anchor="middle" font-family="Inter, Arial, sans-serif"
+        font-size="20" font-weight="700" fill="currentColor">KS</text>
+</svg>
